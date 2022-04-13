@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Apr 10 19:28:15 2022
+# Process ID: 11868
+# Current directory: D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.runs/synth_1
+# Command line: vivado.exe -log CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU.tcl
+# Log file: D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.runs/synth_1/CPU.vds
+# Journal file: D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.runs/synth_1\vivado.jou
+# Running On: DESKTOP-ADI1JT4, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 2, Host memory: 16319 MB
+#-----------------------------------------------------------
+source CPU.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1233.691 ; gain = 0.000
+Command: synth_design -top CPU -part xc7a50tcsg324-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12096
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:41]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:41]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:51]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:53]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:53]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:55]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:55]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:57]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:57]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:59]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:59]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:69]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:69]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:79]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:81]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:81]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:83]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:83]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:85]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:85]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:95]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:95]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:97]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:97]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:99]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:99]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:101]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:101]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:103]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:103]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:105]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:105]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:107]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:107]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:109]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:109]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:119]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:129]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:129]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:131]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:131]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:133]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:133]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:135]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:135]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:145]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:145]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:147]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:147]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:157]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:157]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:159]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:159]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:168]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:168]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:178]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:178]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:180]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:180]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:189]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:189]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:198]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:208]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:217]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:217]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:219]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:219]
+WARNING: [Synth 8-6901] identifier 'flags' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:219]
+WARNING: [Synth 8-6901] identifier 'FLAG_C' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:219]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:221]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:221]
+WARNING: [Synth 8-6901] identifier 'flags' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:221]
+WARNING: [Synth 8-6901] identifier 'FLAG_Z' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:221]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:230]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:230]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:232]
+WARNING: [Synth 8-6901] identifier 'stage' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:232]
+WARNING: [Synth 8-6901] identifier 'pc' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:240]
+WARNING: [Synth 8-6901] identifier 'mem' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:240]
+WARNING: [Synth 8-6901] identifier 'mar' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:240]
+WARNING: [Synth 8-6901] identifier 'ir' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:240]
+WARNING: [Synth 8-6901] identifier 'a_reg' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:240]
+WARNING: [Synth 8-6901] identifier 'alu' is used before its declaration [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:240]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CPU' [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:22]
+WARNING: [Synth 8-6014] Unused sequential element ctrl_ce_reg was removed.  [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:199]
+WARNING: [Synth 8-6014] Unused sequential element ctrl_fi_reg was removed.  [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:231]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (1#1) [D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.srcs/sources_1/new/CPU.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a50tcsg324-2L
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a50tcsg324-2L
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---RAMs : 
+	              128 Bit	(16 X 8 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 7     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 12    
+	   7 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++------------+------------+-----------+----------------------+---------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++------------+------------+-----------+----------------------+---------------+
+|CPU         | mem_reg    | Implied   | 16 x 8               | RAM16X1S x 8  | 
++------------+------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++------------+------------+-----------+----------------------+---------------+
+|Module Name | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++------------+------------+-----------+----------------------+---------------+
+|CPU         | mem_reg    | Implied   | 16 x 8               | RAM16X1S x 8  | 
++------------+------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     3|
+|3     |LUT2     |     8|
+|4     |LUT3     |    10|
+|5     |LUT4     |    14|
+|6     |LUT5     |    21|
+|7     |LUT6     |    31|
+|8     |RAM16X1S |     8|
+|9     |FDCE     |    45|
+|10    |FDRE     |    14|
+|11    |IBUF     |     2|
+|12    |OBUF     |     8|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   165|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 86 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:00:56 . Memory (MB): peak = 1233.691 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1233.691 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1233.691 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 8 instances
+
+Synth Design complete, checksum: 42d7eb81
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 86 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:02 . Memory (MB): peak = 1233.691 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/PROJECT_WORK_SUT/Smart Home Microprocessor/CPU-8Bit/CPU_8/CPU_8.runs/synth_1/CPU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CPU_utilization_synth.rpt -pb CPU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 10 19:29:33 2022...
