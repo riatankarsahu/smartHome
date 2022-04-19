@@ -20,7 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module SPI #(parameter CLK_DIV = 2)(input clock, input reset, input miso, output mosi, output sck, input start, input[7:0] data_in, output[7:0] data_out, output busy, output new_data);
+module SPI #(parameter CLK_DIV = 2)(input clock, input reset, input miso, output mosi, output sck, input start, 
+                                    input[7:0] data_in, output[7:0] data_out, output busy, output new_data);
 localparam STATE_SIZE = 2;
 localparam IDLE = 2'd0, WAIT_HALF = 2'd1, TRANSFER = 2'd2;
 reg [STATE_SIZE - 1:0] state_d, state_q;
